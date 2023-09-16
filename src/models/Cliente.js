@@ -24,8 +24,7 @@ const clienteSchema = new mongoose.Schema({
   },
   estado: {
     type: String,
-    default: 'Activo',
-    required: true,
+    default: 'Activo'
   },
 });
 
